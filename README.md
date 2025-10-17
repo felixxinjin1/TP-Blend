@@ -231,13 +231,15 @@ config.json                    # Runtime configuration (comments supported)
 
 If you use this code, please cite:
 
-@article{jin2025tpblend,
-  title   = {{TP}-Blend: Textual-Prompt Attention Pairing for Precise Object-Style Blending in Diffusion Models},
-  author  = {Jin, Xin and Zhong, Yichuan and Tian, Yapeng},
-  journal = {Transactions on Machine Learning Research},
-  year    = {2025},
-  url     = {https://openreview.net/forum?id=q6M73uOBZE},
-  note    = {Action Editor recommendation: Accept with minor revision; camera-ready pending}
+@article{
+jin2025tpblend,
+title={{TP}\nobreakdash-Blend: Textual\nobreakdash-Prompt Attention Pairing for Precise Object\nobreakdash-Style Blending in Diffusion Models},
+author={xin jin and Yichuan Zhong and Yapeng Tian},
+journal={Transactions on Machine Learning Research},
+issn={2835-8856},
+year={2025},
+url={https://openreview.net/forum?id=q6M73uOBZE},
+note={}
 }
 
 ---
