@@ -1,7 +1,12 @@
 # TP-Blend: Implementation Code
 
 Implementation code for the paper **“TP-Blend: Textual-Prompt Attention Pairing for Precise Object-Style Blending in Diffusion Models.”**
-📄 **Paper (OpenReview PDF):** [https://openreview.net/pdf?id=q6M73uOBZE](https://openreview.net/pdf?id=q6M73uOBZE)
+
+📄 **Paper landing page (GitHub Pages):** https://felixxinjin1.github.io/TP-Blend/  
+📄 **PDF (GitHub Pages):** https://felixxinjin1.github.io/TP-Blend/paper/tp-blend.pdf  
+📄 **Paper (OpenReview):** https://openreview.net/forum?id=q6M73uOBZE  
+📄 **Paper (OpenReview PDF):** https://openreview.net/pdf?id=q6M73uOBZE  
+📄 **arXiv:** https://arxiv.org/abs/2601.08011
 
 **TP-Blend** provides a custom **attention processor** that enables precise object blending and faithful style transfer in diffusion models:
 - **SASF — Self-Attention Style Fusion** injects style within self-attention while preserving structure and texture.
