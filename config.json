@@ -1,0 +1,35 @@
+{
+  "model_id": "stabilityai/stable-diffusion-xl-base-1.0",
+  "vae_id": "madebyollin/sdxl-vae-fp16-fix",
+  "device": "cuda",
+  "torch_dtype": "float32",
+  "scheduler": "ddim",
+
+  "image_path": "./dataset/person/forrest-gump.jpg",
+  "image_size": [1024, 1024],
+  "output_dir": "./output_images",
+
+  "invert": {
+    "num_inversion_steps": 50,
+    "skip": 0.2
+  },
+
+  "attention": {
+    "enable_caof": true,
+    "enable_sasf": true,
+    "sasf_mode": "DSIN",
+    "use_ot": true,
+    "per_block_overrides": {
+      // example: "down_blocks.0": { "enable_CAOF": false }
+    }
+  },
+
+  "edit": {
+    "editing_prompt": ["Man", "Taylor Swift", "jean shorts+white shirt", "oil painting"],
+    "reverse_editing_direction": [true, false, false, false],
+    "edit_guidance_scale": [5.0, 10.0, 0, 0],
+    "edit_threshold": [0, 0, 0, 0],
+    "edit_warmup_steps": 5,
+    "edit_cooldown_steps": null
+  }
+}
