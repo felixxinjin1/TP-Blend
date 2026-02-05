@@ -1,0 +1,23 @@
+name: TP-Blend
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+
+dependencies:
+  # --- Core Python ---
+  - python=3.8
+
+  # --- PyTorch w/ CUDA 12.1 via conda (recommended) ---
+  - pytorch=2.4.1
+  - torchvision=0.19.1
+  - torchaudio=2.4.1
+  - pytorch-cuda=12.1  # remove this line for CPU-only installs
+
+  # --- Pip + Python deps installed from PyPI ---
+  - pip
+  - pip:
+      - diffusers==0.30.3
+      - accelerate==1.0.1
+      - transformers==4.46.2
