@@ -2,6 +2,7 @@
 
 Implementation code for the paper **“TP-Blend: Textual-Prompt Attention Pairing for Precise Object-Style Blending in Diffusion Models.”**
 
+📄 **DOI:** https://doi.org/10.48550/arXiv.2601.08011  
 📄 **Paper landing page (GitHub Pages):** https://felixxinjin1.github.io/TP-Blend/  
 📄 **PDF (GitHub Pages):** https://felixxinjin1.github.io/TP-Blend/paper/tp-blend.pdf  
 📄 **Paper (OpenReview):** https://openreview.net/forum?id=q6M73uOBZE  
