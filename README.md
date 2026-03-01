@@ -237,23 +237,37 @@ config.json                    # Runtime configuration (comments supported)
 
 ## 7) Citation
 
-If you use this code, please cite:
+If you use this code, please cite **TP-Blend**.
 
-@article{
-jin2025tpblend,
-title={{TP}-Blend: Textual-Prompt Attention Pairing for Precise Object-Style Blending in Diffusion Models},
-author={Xin Jin and Yichuan Zhong and Yapeng Tian},
-journal={Transactions on Machine Learning Research},
-issn={2835-8856},
-year={2025},
-url={https://openreview.net/forum?id=q6M73uOBZE},
-note={}
+### Citation (arXiv preprint)
+```bibtex
+@misc{jin2026tpblend,
+  title={TP-Blend: Textual-Prompt Attention Pairing for Precise Object-Style Blending in Diffusion Models},
+  author={Xin Jin and Yichuan Zhong and Yapeng Tian},
+  year={2026},
+  eprint={2601.08011},
+  archivePrefix={arXiv},
+  primaryClass={cs.CV},
+  doi={10.48550/arXiv.2601.08011},
+  url={https://arxiv.org/abs/2601.08011}
 }
+```
 
+### Citation (OpenReview / TMLR)
+```bibtex
+@article{jin2025tpblend,
+  title={{TP}-Blend: Textual-Prompt Attention Pairing for Precise Object-Style Blending in Diffusion Models},
+  author={Xin Jin and Yichuan Zhong and Yapeng Tian},
+  journal={Transactions on Machine Learning Research},
+  issn={2835-8856},
+  year={2025},
+  url={https://openreview.net/forum?id=q6M73uOBZE}
+}
+```
 ---
 
 ## 8) License
 
 This project is licensed under the **Apache License 2.0**. 
 You may use, modify, and distribute this code under the terms of that license. 
-See: http://www.apache.org/licenses/LICENSE-2.0
+See: https://www.apache.org/licenses/LICENSE-2.0
